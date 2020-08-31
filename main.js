@@ -26,6 +26,7 @@ function myFilter(array, fn) {
     return filteredArray;
   }
   }
+
   function every(array, fn) {
     let result = true;
     for (let i = 0; i < array.length; i++) {
@@ -57,10 +58,9 @@ function myFilter(array, fn) {
       }
     }
   }
- let data=[1,2];
- result1 = myMap(data, x => x + 2);
- console.log(result1);
- result2 = myFilter(data, x =>x>1);
- console.log(result2);
-
+//  let data=[1,2];
+//  result1 = myMap(data, x => x + 2);
+//  console.log(result1);
+//  result2 = myFilter(data, x =>x>1);
+//  console.log(result2);
 module.exports= myMap, myFilter;
